@@ -1,0 +1,28 @@
+.header {
+    &__logo {
+        font-size: 2rem;
+    }
+
+    &__main-nav {
+        display: none;
+    }
+}
+
+@media (min-width: 960px) {
+    .header {
+        &__logo {
+            .drawer-bar {
+                display: none;
+            }
+        }
+
+        &__drawer {
+            display: none;
+        }
+
+        &__main-nav {
+            display: block;
+            
+        }
+    }
+}

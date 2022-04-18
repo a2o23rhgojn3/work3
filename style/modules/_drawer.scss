@@ -1,0 +1,27 @@
+.header {
+    &__drawer {
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        font-size: 2rem;
+        background-color: $white;
+        transform: translateX(-100%);
+        #drawer-close {
+            font-size: 1.5rem;
+        }
+        ul {
+            li {
+                margin-bottom: 2vh;
+            }
+        }
+        .extend-wrapper {
+            margin: 5vh 2vh;
+        }
+    }
+    .open {
+        transform: translateX(0);
+        transition: 0.5s ease;
+    }
+}

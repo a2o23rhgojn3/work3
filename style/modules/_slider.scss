@@ -1,0 +1,35 @@
+.product-slider {
+    article {
+        margin-right: 2rem;
+        .product-slider-image {
+            width: 50vw;
+            height: 50vw;
+        }
+        .product-slider-item-content {
+            margin-top: 1rem;
+            p {
+                margin-bottom: 0.5rem;
+            }
+        }
+    }
+}
+@media (min-width: 960px) {
+    .product-slider {
+        article {
+            margin-right: 2rem;
+            a {
+                cursor: grab;
+            }
+            .product-slider-image {
+                width: 30vw;
+                height: 30vw;
+            }
+            .product-slider-item-content {
+                margin-top: 1rem;
+                p {
+                    margin-bottom: 0.5rem;
+                }
+            }
+        }
+    }
+}

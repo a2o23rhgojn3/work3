@@ -1,0 +1,66 @@
+// style
+a {
+    cursor: pointer;
+}
+button {
+    outline: none;
+
+}
+h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 1.5rem;
+}
+h2 {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+.object-fit-cover {
+    object-fit: cover;
+}
+// position
+.text-align-right {
+    text-align: right;
+}
+.text-align-center {
+    text-align: center;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+// wrapper
+.wrapper {
+    margin: 3vw;
+}
+.top-bottom-wrapper {
+    margin: 3vh 0;
+}
+.section-title-wrapper {
+    margin-bottom: 1rem;
+}
+// layout
+.flex {
+    display: flex;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-space-around {
+    justify-content: space-around;
+}
+.justify-space-between {
+    justify-content: space-between;
+}
+.align-items-center {
+    align-items: center;
+}
+.x-scroll {
+    overflow-x: scroll;
+}
+.grid {
+    display: grid;
+}
+
